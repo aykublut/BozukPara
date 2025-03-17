@@ -1,0 +1,49 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.stats{
+  margin-bottom: 10px;
+}
+img{
+  width: 200px;
+  height: 200px;
+}
+.container{
+  background-color: antiquewhite;
+  width: 300px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  gap: 10px;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+button{
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 40px;
+  background-color: rgb(175, 235, 235);
+}
+.resimler {
+  transition: transform 0.2s ease-in-out;
+}
+
+.active {
+  transform: rotateX(180deg)  ;
+}
+.flip-button:hover{
+background-color: aquamarine;
+}
